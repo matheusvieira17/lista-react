@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  margin: 8.4rem 0px 2.4rem;
+  font-size: 2.4rem;
+}
+
+.container input,
+.container button {
+  font-size: 1.6rem;
+  width: 50%;
+  padding: 2.4rem;
+  border: none;
+  outline: none;
+}
+
+.container input {
+  background-color: var(--bckg-color);
+  border-radius: 0.5rem;
+}
+
+.container button {
+  margin: 1.2rem 0 8.4rem;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  color: var(--default-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
