@@ -1,10 +1,10 @@
 import "./card.css";
 
-export const Card = () => {
+export const Card = ({ name, time }) => {
   return (
     <div className="card">
-      <strong>Matheus</strong>
-      <small>11:39:23</small>
+      <strong>{name}</strong>
+      <small>{time}</small>
     </div>
   );
 };
